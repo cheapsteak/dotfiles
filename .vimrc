@@ -430,3 +430,4 @@ endfunction
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+au Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
