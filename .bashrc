@@ -90,3 +90,4 @@ fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATh=$PATH:/usr/local/bin
+PATh=$PATH:/usr/local/lib/node_modules/requirejs/bin

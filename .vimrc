@@ -430,4 +430,7 @@ endfunction
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+augroup filetypedetect
+    au! BufNewFile,BufRead *.tmpl setf html
+augroup END
 au Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
