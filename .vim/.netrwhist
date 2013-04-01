@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/etc/apache2/conf.d'
+let g:netrw_dirhist_2='/root/.vim/bundle/syntastic'
+let g:netrw_dirhist_3='/root/.vim/bundle/syntastic/plugin/syntastic'
