@@ -137,7 +137,7 @@ if &term =~ "xterm"
   endif
 endif
 
-colorscheme wombat256
+colorscheme molokai
 " set background=dark
 
 " Set extra options when running in GUI mode
@@ -434,3 +434,8 @@ augroup filetypedetect
     au! BufNewFile,BufRead *.tmpl setf html
 augroup END
 au Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
+
+au BufNewFile,BufReadPost *.coffee setlocal sw=2
+
+let g:syntastic_json_checkers=['jsonlint']
+let g:syntastic_coffee_checkers=['coffee', 'coffeelint']
